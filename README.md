@@ -4,6 +4,7 @@ A To do list web based application
 Project Title: To-Do list- Web application
 
 Project Description: A simple web-based application that allows a user to maintain a simple to-do list for themselves. The user should be able to create, update or remove tasks from the list. The user will login to his/her account or create one if he doesn’t have one. The user will be able to view his to-do list only and can logout from the application. A databse will store registered user’s information and information of tasks in a list of each user.
+
 Languages: Html, Css, Jsp, Java and use of SQL.
 
 Features:
@@ -17,14 +18,20 @@ Features:
 8.	User can log out from the web application and his/her session will be expired.
 
 Requirements:
+
+
 •	Tomcat: For running the application
-•	MySQL (SQL Yog): It is used as a relational database for storing data from the web based application
+
+•	MySQL (SQL Yog): It is used as a relational database for storing data.
+
 •	Java: jdk will be required.
 
 How to Install and use your Project:
 
 
+
 1.	First install Java’s, Tomcat’s and SQL Yog’s latest versions.
+
 Java jdk:
 
 ![image](https://user-images.githubusercontent.com/84430386/118864088-11cdce80-b8f9-11eb-902a-9131fc08b283.png)
@@ -48,13 +55,14 @@ SQL Yog:
  ![image](https://user-images.githubusercontent.com/84430386/118864445-6ec98480-b8f9-11eb-8568-d74846485307.png)
 
 
-![image](https://user-images.githubusercontent.com/84430386/118864476-76892900-b8f9-11eb-98be-d116b56545b4.png)
+  ![image](https://user-images.githubusercontent.com/84430386/118864476-76892900-b8f9-11eb-98be-d116b56545b4.png)
 
  
 
 
-5.	Now go to WEB-INF>classes, there are java files, in the search folder 
-placeholder, type cmd, command prompt will open, write a command  
+5.	Now go to WEB-INF>classes, there are java files, in the search 
+placeholder, type cmd, command prompt will open, write a command:
+
 > javac *.java , all java files will be compiled.
   
   
@@ -69,6 +77,7 @@ placeholder, type cmd, command prompt will open, write a command
 7.	Lib folder contains: mysql-connector-java-5.0.8-bin (you need to install this and place it in this folder).
 
  ![image](https://user-images.githubusercontent.com/84430386/118864594-90c30700-b8f9-11eb-990d-b256712f6b31.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/84430386/118864610-9587bb00-b8f9-11eb-921a-be0290ddf997.png)
@@ -133,6 +142,7 @@ Note: WEB-INF has 3 structures: classes folder (containing java files), web.xml 
 
 Project components:
 
+
 Java files:  ![image](https://user-images.githubusercontent.com/84430386/118865314-3c6c5700-b8fa-11eb-804f-e5f56f324c97.png)
              
 location: C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\myapps\WEB-INF\classes.
@@ -146,8 +156,11 @@ Jsp files:          ![image](https://user-images.githubusercontent.com/84430386/
 Location: C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\myapps.
 
 SQL Yog:
-Contains 
+
+Contains-> 
+
 Database: infor
+
 Table1: REGISTER
 
  ![image](https://user-images.githubusercontent.com/84430386/118865386-4c843680-b8fa-11eb-8fe2-7eaf4ac82031.png)
