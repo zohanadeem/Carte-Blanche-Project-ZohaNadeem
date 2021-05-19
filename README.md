@@ -26,7 +26,8 @@ How to Install and use your Project:
 
 1.	First install Java’s, Tomcat’s and SQL Yog’s latest versions.
 Java jdk:
- 
+![image](https://user-images.githubusercontent.com/84430386/118864088-11cdce80-b8f9-11eb-902a-9131fc08b283.png)
+
 
 Tomcat: 
 
