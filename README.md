@@ -101,7 +101,7 @@ Note: WEB-INF has 3 structures: **classes folder** (containing java files), **we
  
 
     Now server is started
-**9.**	Now open your browser and type: **localhost:8080.** If you see tomcat’s page, means your tomcat is installed successfully
+**9.**	Now open your browser and type: **localhost:8080.** If you see tomcat’s page, means your tomcat is installed and running successfully
              
  ![image](https://user-images.githubusercontent.com/84430386/118864678-a7695e00-b8f9-11eb-9fbc-725bc32c68cc.png)
 
