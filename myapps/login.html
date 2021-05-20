@@ -1,0 +1,82 @@
+<head>
+<html>
+<title>Login Page</title>
+<script language="JavaScript" type="text/javaScript">
+
+function validate()
+{		
+
+	if ( document.login.uname.value == "" )
+	    {
+			alert("User name is empty!!");			
+			return false;
+	    }
+
+	if(document.login.password.value == "")	
+	   {
+			alert("password is empty!!");
+			return false;
+	   }
+	
+	return true;
+}
+</script>
+</head>
+<style>
+.set {
+top: 368px;
+left: 556px;
+width: 82px;
+height: 22px;
+text-align: left;
+font: normal normal bold 16px/19px Open Sans;
+letter-spacing: 0px;
+color: #434343;
+opacity: 1;
+}
+
+.btns1{
+top: 698px;
+left: 556px;
+width: 100px;
+height: 40px;
+background: #26A69A 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 4px #00000029;
+border-radius: 4px;
+opacity: 1;
+}
+
+
+.btns2{
+top: 698px;
+left: 556px;
+width: 100px;
+height: 38px;
+background: #26A69A 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 4px #00000029;
+border-radius: 4px;
+opacity: 1;
+}
+</style>
+<body text=black>
+	<form name="login" action="login" method="post"  onsubmit="return validate()">
+	<center>
+	<img src="to-do.jpg" alt="logo"><br>
+	<p style="font-family:verdana;">
+	<h1>To Do</h1>
+	<h2>Login:</h2>
+		
+	<p class="set">USERNAME:</p>
+	<input type="text" name="uname"><br><br>
+	
+	<p class="set">PASSWORD:</p>
+	<input type="password" name="password"><br><br>
+	
+	<button class="btns1"><a  href="TodolistHome.jsp"><input type="submit" value="SIGN IN"></a></button><br><br><br>
+	
+	<button class="btns2"><a  href="signup.html" >SIGN UP</a></button>
+	</p>
+	</center>
+	</form>
+</body>
+</html>
