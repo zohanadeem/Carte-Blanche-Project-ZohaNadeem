@@ -3,7 +3,7 @@ A To do list web based application
 
 **Project Title:** To-Do list- Web application
 
-**Project Description:** A simple web-based application that allows a user to maintain a simple to-do list for themselves. The user should be able to create, update or remove tasks from the list. The user will login to his/her account or create one if he doesn’t have one. The user will be able to view his to-do list only and can logout from the application. A databse will store registered user’s information and information of tasks in a list of each user.
+**Project Description:** A simple web-based application that allows a user to maintain a simple to-do list for themselves. The user should be able to create, update or remove tasks from the list. The user will login to his/her account or create one if he doesn’t have one. The user will be able to view his to-do list only and can logout from the application. A database will store registered user’s information and information of tasks in a list of each user.
 
 **Languages:** Html, Css, Jsp, Java and use of SQL.
 
@@ -73,7 +73,7 @@ placeholder, type cmd, command prompt will open, write a command:
   ![image](https://user-images.githubusercontent.com/84430386/118864525-843eae80-b8f9-11eb-8809-a22f7e300520.png)
 
 
-**6.**	Now come one step back, web.xml will be given, its contains the linking of html pages with the java files.
+**6.**	Now come one step back, web.xml will be given, it contains the linking of html pages with the java files.
  
 ![image](https://user-images.githubusercontent.com/84430386/118864557-89036280-b8f9-11eb-934c-b3d5344bfde0.png)
 
