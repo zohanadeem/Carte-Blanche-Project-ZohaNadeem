@@ -8,14 +8,14 @@ A To do list web based application
 **Languages:** Html, Css, Jsp, Java and use of SQL.
 
 **Features:**
-1.	In order to maintain a to-do list user needs to create a new account on his first visit to the web application. (Sign-Up)
-2.	After creating the account user will be able to login into his/her profile and his/her session will be created. (Sign-in)
-3.	On the welcome page user will be able to see his to-do list task containing (task title, labels, priority) (View-tasks).
-4.	User will be able to create a new task. (Create-tasks).
-5.	User can delete task/tasks from his list by clicking delete button (Delete-tasks).
-6.	User can also update the task/tasks from his to-do list (Update-tasks).
+1.	In order to maintain a to-do list user needs to create a new account on his first visit to the web application **(Sign-Up).**
+2.	After creating the account user will be able to login into his/her profile and his/her session will be created **(Sign-in).**
+3.	On the welcome page user will be able to see his to-do list task containing (task title, labels, priority) **(View-tasks).**
+4.	User will be able to create a new task **(Create-tasks).**
+5.	User can delete task/tasks from his list by clicking delete button **(Delete-tasks).**
+6.	User can also update the task/tasks from his to-do list **(Update-tasks).**
 7.	One user cannot view other user’s to-do list.
-8.	User can log out from the web application and his/her session will be expired.
+8.	User can log out from the web application and his/her session will be expired **(Sign-out).**
 
 **Requirements:**
 
@@ -46,12 +46,15 @@ A To do list web based application
  
  ![image](https://user-images.githubusercontent.com/84430386/118864210-31fd8d80-b8f9-11eb-9b00-8ea2e3f68d4a.png)
 
+
 **2.**	Set appropriate paths.
+
 **3.**	Tomcat will be installed in your C drive. 
-    Location: C:\Program Files\Apache Software Foundation.
+    **Location:** C:\Program Files\Apache Software Foundation.
     
 **4.**	In your C drive, go to Apache Software Foundation> Tomcat>webapps,
-    copy the folder named as myapps in webapps, there are two html files, two jsp files and two logo images outside and a folder named WEB-INF.
+    copy the folder named as **myapps** in webapps, there are two html files, two jsp files and two logo images outside and a folder named WEB-INF.
+    
  ![image](https://user-images.githubusercontent.com/84430386/118864445-6ec98480-b8f9-11eb-8568-d74846485307.png)
 
 
@@ -74,7 +77,7 @@ placeholder, type cmd, command prompt will open, write a command:
 ![image](https://user-images.githubusercontent.com/84430386/118864557-89036280-b8f9-11eb-934c-b3d5344bfde0.png)
 
 
-**7.**	Lib folder contains: mysql-connector-java-5.0.8-bin (you need to install this and place it in this folder).
+**7.**	Lib folder contains: **mysql-connector-java-5.0.8-bin** (you need to install this and place it in this folder).
 
  ![image](https://user-images.githubusercontent.com/84430386/118864594-90c30700-b8f9-11eb-990d-b256712f6b31.png)
 
@@ -84,9 +87,9 @@ placeholder, type cmd, command prompt will open, write a command:
 
  
 
-Note: WEB-INF has 3 structures: classes folder (containing java files), web.xml (linking file) and lib folder containing mysql-connector.
+Note: WEB-INF has 3 structures: **classes folder** (containing java files), **web.xml** (linking file) and **lib folder** containing mysql-connector.
 
-**8.**	Now go to: C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin , it will contain a file named as startup, double click it.
+**8.**	Now go to: C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin , it will contain a file named as **startup**, double click it.
 
  
 ![image](https://user-images.githubusercontent.com/84430386/118864633-9b7d9c00-b8f9-11eb-9860-95edbbbbe341.png)
@@ -97,30 +100,31 @@ Note: WEB-INF has 3 structures: classes folder (containing java files), web.xml 
  
 
     Now server is started
-**9.**	Now open your browser and type: localhost:8080. If you see tomcat’s page, means your tomcat is installed successfully
+**9.**	Now open your browser and type: **localhost:8080.** If you see tomcat’s page, means your tomcat is installed successfully
              
  ![image](https://user-images.githubusercontent.com/84430386/118864678-a7695e00-b8f9-11eb-9fbc-725bc32c68cc.png)
 
 
-**10.**	Now type in the browser as:  localhost:8080/myapps/login.html , it will take you to the login page of the application.
+**10.**	Now type in the browser as:  **localhost:8080/myapps/login.html** , it will take you to the login page of the application.
 
    ![image](https://user-images.githubusercontent.com/84430386/118864894-d8e22980-b8f9-11eb-9494-96a06d8eb0b5.png)
     
 
 **11.**	From login page, you can either signup or sign in.
 
-**12.**	Signup will save data into database table REGISTER( all new users will be saved in it).
+**12.**	Signup will save data into database table **REGISTER**( all new users will be saved in it).
  
  ![image](https://user-images.githubusercontent.com/84430386/118864932-e3042800-b8f9-11eb-8678-5c0bcb1f7503.png)
 
 
 **13.**	Now enter the login username and password in order to sign in to the application. Invalid username or password will not allow you to login and will remain on the same page, clearing the two fields.
+
 **14.**	As soon as you login,a session will be creted and on entering, you will see the TodolistHome page, where you can create a new task.
             
   ![image](https://user-images.githubusercontent.com/84430386/118864965-ea2b3600-b8f9-11eb-8d40-2a92139972d6.png)
 
 
-**15.**	 You can add as many tasks as you want. Note that you can only view your list and tasks in it, not all users list.
+**15.**	 You can add as many tasks as you want. Your new task will be saved in the **LIST** table. Note that you can only view your list and tasks in it, not all users list.
  
 ![image](https://user-images.githubusercontent.com/84430386/118864991-ef888080-b8f9-11eb-8907-a9515122b8c4.png)
 
@@ -131,13 +135,15 @@ Note: WEB-INF has 3 structures: classes folder (containing java files), web.xml 
 ![image](https://user-images.githubusercontent.com/84430386/118865013-f616f800-b8f9-11eb-8782-8b3b65fc8bc6.png)
 
  
-**17.**	You can edit your Todolist task.
+**17.**	You can edit/update your Todolist task.
  
  ![image](https://user-images.githubusercontent.com/84430386/118865029-fb744280-b8f9-11eb-8bfd-f367f9938dcb.png)
+ 
 
 **18.**	 You can signout of the application and your session will expire.
  
 ![image](https://user-images.githubusercontent.com/84430386/118865046-016a2380-b8fa-11eb-92b3-cbbc155403e1.png)
+
 
 
 **Project components:**
@@ -148,12 +154,16 @@ Note: WEB-INF has 3 structures: classes folder (containing java files), web.xml 
 **location:** C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\myapps\WEB-INF\classes.
 
 
+
 **Html files:**        login.html and signup.html    
+
 **Location:** C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\myapps
+
 
 **Jsp files:**          ![image](https://user-images.githubusercontent.com/84430386/118865347-442bfb80-b8fa-11eb-8adb-1a560aa1ad82.png)
   
 **Location:** C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\myapps.
+
 
 **SQL Yog:**
 
