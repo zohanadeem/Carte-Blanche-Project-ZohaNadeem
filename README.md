@@ -51,7 +51,7 @@ A To do list web based application
 
 **3.**	Tomcat will be installed in your C drive.
 
-    **Location:** C:\Program Files\Apache Software Foundation.
+   **Location:** C:\Program Files\Apache Software Foundation.
     
 **4.**	In your C drive, go to Apache Software Foundation> Tomcat>webapps,
     copy the folder named as **myapps** in webapps, there are two html files, two jsp files and two logo images outside and a folder named WEB-INF.
