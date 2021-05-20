@@ -49,7 +49,8 @@ A To do list web based application
 
 **2.**	Set appropriate paths.
 
-**3.**	Tomcat will be installed in your C drive. 
+**3.**	Tomcat will be installed in your C drive.
+
     **Location:** C:\Program Files\Apache Software Foundation.
     
 **4.**	In your C drive, go to Apache Software Foundation> Tomcat>webapps,
